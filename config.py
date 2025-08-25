@@ -30,7 +30,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5415721126")) # Owner id
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://fixmayart834:FMWwXBd4JJYMs2Iv@cluster0.ltpube9.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Filestore")
+DB_NAME = os.environ.get("DATABASE_NAME", "Filtore")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Heisenberg_Universe")
