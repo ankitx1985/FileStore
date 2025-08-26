@@ -18,19 +18,20 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", "26880349")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "236f4017f1652b0415c63d120b53d544") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "
+8203447258:AAFbmZuqsJ5BAf9knb_pouKDNXYRAYttagw")
+APP_ID = int(os.environ.get("APP_ID", "26994377")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "9c9eb74a4a0a1ecd4c96abebf3c637ee") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002955857749")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "TheGreatGoblin") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "5254302308")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002936339662")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "HeisenbergBots") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "8184789731")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://fixmayart834:FMWwXBd4JJYMs2Iv@cluster0.ltpube9.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Filotore")
+DB_NAME = os.environ.get("DATABASE_NAME", "Filitore")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Heisenberg_Universe")
@@ -42,7 +43,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/tjX.jpg/HGBOTZ.jpg")
 
 #--------------------------------------------
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Heisenberg_Universe\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/Heisenbergsells>Heisenberg</a></blockquote></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Heisenbergsells>Heisenberg</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/HeisenbergBackupZone>Heisenberg Universe</a>\n◈ Backup ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/HeisenbergBackupZone>Join here</a>\n◈ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/WatchClassicMovies>ᴡᴇʙsᴇʀɪᴇs ғʟɪx</a>\n◈ Main Channel : <a href=https://t.me/Heisenberg_Universe>ᴘ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Heisenbergsells>Heisenberg</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Heisenbergsells>Heisenberg</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/HeisenbergBackupZone>Heisenberg Backup Zone</a>\n◈ Main ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Heisenberg_Universe>Heisenberg Universe</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Heisenbergsells>Heisenberg</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
@@ -74,7 +75,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 #--------------------------------------------
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
+USER_REPLY_TEXT = "Bhai ! Mat kar direct Message Bot hoon!!"
 #--------------------------------------------
 
 
